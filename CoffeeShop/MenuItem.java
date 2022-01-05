@@ -1,4 +1,4 @@
-package CoffeeShop;
+package BenchChallenges.CoffeeShop;
 
 public class MenuItem {
     String item;

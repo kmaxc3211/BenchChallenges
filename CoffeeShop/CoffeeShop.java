@@ -1,4 +1,4 @@
-package CoffeeShop;
+package BenchChallenges.CoffeeShop;
 
 import java.util.ArrayList;
 import java.util.Iterator;
