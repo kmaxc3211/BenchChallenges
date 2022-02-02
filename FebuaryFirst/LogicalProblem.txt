@@ -1,0 +1,13 @@
+Logical Reasoning Question:
+In this logic question, you are standing in a room with three light switches. The switches all correspond to three different light bulbs in an adjacent room that you cannot see into. With all the light switches starting in the off position, how can you find out which switch connects to which light bulb?
+
+Answer:
+This question seems to be incomplete, but there seem to be 4 scenarios:
+1. There is no way to see or go into the other room.
+    This problem is impossible. 
+2. You may enter the other room multiple times. 
+    Simply test each light switch one by one to see which bulb they correspond to. 
+3. You may only enter the other room twice.
+    Flip the first two switches and enter the room, taking note of which light bulbs are on. Return to the switch room and turn the middle switch off. Re-enter the bulb room. The light that was on before and is still on corresponds to the first switch. The light that was on but is now off corresponds to the middle switch. The light that was off and is still of corresponds to the last switch.
+4. You may only enter the other room once.
+    Turn on the first two switches and leave them on for a while. After some time turn off the middle switch. When you enter the other room, the bulb that is on corresponds to the first switch. The bulb that is off and warm corresponds to the middle switch. The bulb that is off and cold corresponds to the last switch. 
