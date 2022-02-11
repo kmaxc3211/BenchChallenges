@@ -12,10 +12,10 @@ public class RecursiveSum {
     }
 
     public static void main(String[] args) {
-        int[] thing = {1, 2, 3, 4};
-        System.out.println(sum(thing));
-        int[] otherThing = {};
-        System.out.println(sum(otherThing));
+        System.out.println(sum(new int[] {1, 2, 3, 4}));
+        System.out.println(sum(new int[] {1, 2}));
+        System.out.println(sum(new int[] {1}));
+        System.out.println(sum(new int[] {}));
     }
 
 }
